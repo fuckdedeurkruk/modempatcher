@@ -69,9 +69,9 @@ if __name__ == '__main__':
     parser.add_argument('-u', '--unpatch', action="store_true",
                         help="unpatch modem")
     parser.add_argument('-l', '--legacy', action="store_true",
-                        help="attempt to patch for Android 11")
+                        help="attempt to patch for Android 13")
     parser.add_argument('-L', '--legacy-alt', action="store_true",
-                        help="attempt to patch for Android 11 (alternative)")
+                        help="attempt to patch for Android 13 (alternative)")
     args = parser.parse_args()
 
     main(args)
